@@ -87,44 +87,44 @@ layers:
   - {t: SPACE, type: held}
   - ''
   '2':
+  - ''
+  - '7'
+  - '8'
+  - '9'
+  - /
+  - LCTRL
+  - '&'
+  - '*'
+  - (
+  - )
+  - {type: held}
+  - '4'
+  - '5'
+  - '6'
+  - '*'
+  - {t: ▽, type: trans}
   - '!'
   - '@'
   - '#'
   - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - '-'
-  - _
-  - {t: '`', type: held}
-  - '~'
-  - '"'
-  - ''''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB3'
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '='
   - +
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F11
-  - F12
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - '-'
+  - '='
+  - ''
+  - '['
+  - ']'
+  - '{'
+  - ''
+  - \
+  - {t: ▽, type: trans}
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -173,8 +173,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '4':
-  - ''
-  - ''
+  - {type: held}
+  - {type: held}
   - ''
   - ''
   - ''
@@ -211,8 +211,8 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
-  - {type: held}
+  - ''
+  - ''
   - ''
   - BT CLR ALL
   '5':
@@ -259,17 +259,17 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '6':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -280,6 +280,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - LSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -290,19 +291,20 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - RSHFT
+  - LCTRL
+  - LALT
+  - LGUI
+  - {t: ▽, type: trans}
+  - LANGUAGE 1
+  - LANGUAGE 2
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '='
 combos:
-- p: [39, 38]
+- p: [0, 1]
   k: {t: ESC, h: '4'}
-- p: [11, 12]
+- p: [11, 10]
   k: TAB
+- p: [38, 39]
+  k: Sft+Gui+S
