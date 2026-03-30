@@ -304,7 +304,5 @@ layers:
 combos:
 - p: [0, 1]
   k: {t: ESC, h: '4'}
-- p: [11, 10]
-  k: TAB
 - p: [38, 39]
   k: Sft+Gui+S
