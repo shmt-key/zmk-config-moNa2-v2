@@ -29,11 +29,6 @@
             key-positions = <0 1>;
         };
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 10>;
-        };
-
         screenshot {
             bindings = <&kp LS(LG(S))>;
             key-positions = <38 39>;
