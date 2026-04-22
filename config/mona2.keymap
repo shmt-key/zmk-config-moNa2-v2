@@ -16,7 +16,7 @@
 };
 
 &lt {
-    quick-tap-ms = <300>;
+    quick-tap-ms = <330>;
     flavor = "balanced";
 };
 
@@ -30,7 +30,7 @@
         };
 
         screenshot {
-            bindings = <&kp LS(LG(S))>;
+            bindings = <&kp LG(LS(S))>;
             key-positions = <38 39>;
         };
     };
@@ -90,7 +90,7 @@
 &kp NUMBER_1    &kp NUMBER_2        &kp NUMBER_3        &kp NUMBER_4         &kp NUMBER_5                             &kp NUMBER_6  &kp NUMBER_7    &kp NUMBER_8    &kp NUMBER_9     &kp NUMBER_0
 &kp TAB         &none               &kp LG(UP_ARROW)    &none                &none                     &none          &none         &mkp MB1        &kp UP_ARROW    &none            &mkp MB2
 &kp LEFT_SHIFT  &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &none         &none       &none          &none         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RIGHT_SHIFT
-&kp LCTRL       &kp LEFT_ALT        &kp LEFT_GUI        &kp BACKSPACE        &kp SPACE     &mkp MB1    &kp BACKSPACE  &kp SPACE                                                      &none
+&kp LCTRL       &kp LEFT_ALT        &kp LEFT_GUI        &kp BACKSPACE        &kp SPACE     &mkp MB1    &kp BACKSPACE  &kp SPACE                                                      &kp LG(LS(S))
             >;
 
             sensor-bindings = <&scroll_up_down>;
