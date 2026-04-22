@@ -85,7 +85,7 @@ layers:
   - '&mkp MB1'
   - BACKSPACE
   - {t: SPACE, type: held}
-  - ''
+  - Gui+Sft+S
   '2':
   - /
   - '7'
@@ -305,4 +305,4 @@ combos:
 - p: [0, 1]
   k: {t: ESC, h: '4'}
 - p: [38, 39]
-  k: Sft+Gui+S
+  k: Gui+Sft+S
